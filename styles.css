@@ -85,8 +85,10 @@ input[type="submit"]:hover {
     text-align: center;
 }
 .navbar a:hover{
-    list-style-type: none;   
+    background-color: light gray;  
 }    
+.navbar li{
+    float:left;
 img {
     width: 100px;
     height: 100px;
