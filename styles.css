@@ -69,28 +69,24 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: darkgreen;
 }
-nav ul {
+.navbar ul {
     background-color: #333;
-    padding: 10;
+    padding: 0;
     list-style-type: none;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-nav ul li {
-    margin: 0;
+    overflow: hidden;
     
-nav ul li a {
-    display: block;
-    color: white !important;
-    text-decoration: none !important;
-    padding: 10px 15px;
-    display: block;
 }
-nav ul li a:hover {
-    background-color: #555 !important;
+.navbar a{
+    color: white;
+    text-decoration none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
+.navbar a:hover{
+    list-style-type: none;   
+}    
 img {
     width: 100px;
     height: 100px;
