@@ -71,7 +71,7 @@ input[type="submit"]:hover {
 }
 nav ul {
     background-color: #333;
-    padding:0;
+    padding: 10;
     list-style-type: none;
     margin: 0;
     display: flex;
@@ -81,14 +81,14 @@ nav ul {
 nav ul li {
     margin-right: 0 23px;
     
-nav ul li a {
+nav ul li a,
+nav ul li a:link,
+nav ul li a:visited {
     display: block;
-    color: white;
+    color: white !important;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #444;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color 0.3s ease, color 0.3s ease;
 }
 nav ul li a:hover {
     background-color: #555;
@@ -96,10 +96,10 @@ nav ul li a:hover {
 }
 nav ul li a:active {
     background-color: #007BFF;
-    color: white;
+    color: white !important;
 }
 nav ul li a:visited {
-    color:white;
+    color:white !important;
 }
 img {
     width: 100px;
