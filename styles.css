@@ -88,16 +88,16 @@ nav ul li a:hover,
 nav ul li a:active{
     display: block;
     color: white !important;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 10px 20px;
     background-color 0.3s ease, color 0.3s ease;
 }
 nav ul li a:hover {
-    background-color: #555;
-    color: #ffd700;
+    background-color: #555 !important;
+    color: #ffd700 !important;
 }
 nav ul li a:active {
-    background-color: #007BFF;
+    background-color: #007BFF !important;
     color: white !important;
 }
 nav ul li a:visited {
