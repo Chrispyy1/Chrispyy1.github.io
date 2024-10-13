@@ -79,29 +79,17 @@ nav ul {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 nav ul li {
-    margin-right: 0 23px;
+    margin: 0;
     
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited 
-nav ul li a:hover,
-nav ul li a:active{
+nav ul li a {
     display: block;
     color: white !important;
     text-decoration: none !important;
-    padding: 10px 20px;
-    background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 15px;
+    display: block;
 }
 nav ul li a:hover {
     background-color: #555 !important;
-    color: #ffd700 !important;
-}
-nav ul li a:active {
-    background-color: #007BFF !important;
-    color: white !important;
-}
-nav ul li a:visited {
-    color:white !important;
 }
 img {
     width: 100px;
