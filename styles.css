@@ -1,0 +1,114 @@
+body {
+    background-color: #f0f8ff;
+    font-family:Ariel, sans-serif;
+    margin: 0;
+    padding: 20;
+    line-height: 1.6;
+}
+h1{
+    color: green;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: darkblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #333;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+p { 
+    color: #333;
+    margin: 10px 20px;
+    font-size: 1.1em;
+}
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+a {
+    color: darkblue;
+    text-decoration: underline
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+label[for="name"] {
+    color: green;
+}
+label[for="email"] {
+    color: orange;
+}
+label[for="message"] {
+    color: green;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width:400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding:10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+nav ul{
+    background-color: #333;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin-right: 15px;
+}
+nave ul li: last-child {
+    margin-right: 0;
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+  
