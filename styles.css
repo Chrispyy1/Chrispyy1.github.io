@@ -79,24 +79,27 @@ nav ul{
     margin: 0;
     display: flex;
     justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 nav ul li {
     margin-right: 15px;
-}
-nave ul li: last-child {
-    margin-right: 0;
-}
     
 nav ul li a {
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    background-color: #333;
+    padding: 10px 20px;
+    background-color: #444;
     border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 nav ul li a:hover {
     background-color: #555;
+    color: #ffd700;
 }
+nav ul li a.active {
+    background-color: #007BFF;
+    color: white;
 img {
     width: 100px;
     height: 100px;
