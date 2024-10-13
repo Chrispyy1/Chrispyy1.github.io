@@ -98,6 +98,9 @@ nav ul li a:active {
     background-color: #007BFF;
     color: white;
 }
+nav ul li a:visited {
+    color:white;
+}
 img {
     width: 100px;
     height: 100px;
