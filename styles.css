@@ -82,15 +82,15 @@ nav a:hover {
 }
 button {
     paddding: 10px 20px;
-    background: #28a745
+    background: #007BFF
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    font-size: 1rem;
 }
 button:hover {
-    background: #1c7c35;
+    background: #0056b3;
 }
 #weather {
     text-align: center;
